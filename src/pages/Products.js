@@ -14,7 +14,7 @@ function Products({ store }) {
                   return (
                     <div key={stores.id} className="d flex">
                       <div className="gridBox flex  bg-[white] p-[30px] rounded-[10px]">
-                        <Link href="/" className="">
+                        <div>
                           <div className="">
                             <Image
                               alt="demo"
@@ -33,7 +33,7 @@ function Products({ store }) {
                               Buy Now
                             </button>
                           </div>
-                        </Link>
+                        </div>
                       </div>
                     </div>
                   );

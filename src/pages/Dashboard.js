@@ -3,7 +3,7 @@ import ChartLines from "./components/ChartLines";
 import Image from "next/image";
 import Upgrade from "../../public/security-check-6877543-5639689.png";
 import Link from "next/link";
-import data from "./data";
+import Data from "./Data";
 
 const Dashboard = () => {
   return (

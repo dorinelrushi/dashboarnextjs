@@ -3,7 +3,7 @@ import React from "react";
 import Position from "./components/Position";
 import ChartLines1 from "./components/ChartLines1";
 import Link from "next/link";
-import datas from "./datas";
+import Datas from "./Data";
 
 function Transaction() {
   return (
@@ -85,7 +85,7 @@ function Transaction() {
               </div>
             </div>
             <div className="bg-white px-[40px] py-[15px] rounded-[18px] overflow-y-scroll h-[350px]">
-              {datas.map((item) => (
+              {Datas.map((item) => (
                 <div key={item.id} className="flexData ">
                   <div className="flexIndies ">
                     <div className="datasIndex flex justify-between items-center  mb-[22px] text-center text-[#1d1d1d] border-b-[1px] py-[10px]">

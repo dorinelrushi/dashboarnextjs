@@ -6,9 +6,7 @@ const Sidebar = () => {
         <div className="upMenu flex items-center gap-[15px]">
           <div className="profile w-[58px] h-[58px] rounded-[50%] "></div>
           <div className="text">
-            <Link href="/">
-              <h1 className="text font-bold">Dorinel.js</h1>
-            </Link>
+            <Link href="/demo">Dorinel.js</Link>
           </div>
         </div>
         <div className="centerMenu">

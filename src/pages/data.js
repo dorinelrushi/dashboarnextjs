@@ -1,5 +1,5 @@
 import Link from "next/link";
-const data = [
+const Data = [
   {
     id: 0,
     nr: "#123456",
@@ -26,4 +26,4 @@ const data = [
   },
 ];
 
-export default data;
+export default Data;

@@ -1,7 +1,7 @@
 import Image from "next/image";
 import stars from "../../public/Starbucks-logo.png";
 
-const datas = [
+const Datas = [
   {
     id: 1,
     brand: <Image src={stars} alt="demo" width="60px" />,
@@ -49,4 +49,4 @@ const datas = [
   },
 ];
 
-export default datas;
+export default Datas;
