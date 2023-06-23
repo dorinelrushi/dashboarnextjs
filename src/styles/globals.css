@@ -2,26 +2,106 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai&display=swap');
+*{
+  outline: none;
+}
+body{
+  background: #f1f1fa;
+  font-family: 'Hind Madurai', sans-serif;
+outline: none;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f100; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #e2e2f7f3; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+.summaryCartFlex{
+  box-shadow: rgba(215, 212, 212, 0.083) 0px 48px 10px 0px;
+}
+
+.cardCredit{
+  width: 100%;
+  background-image: linear-gradient(to right bottom, #5b67cd, #5460c5, #4d59bc, #4652b4, #3f4bac);
+ 
+}
+
+
+
+.firstCard{
+  box-shadow: rgba(149, 157, 165, 0.099) 0px 8px 24px;
+}
+
+.cImages{
+  background: url('https://logodownload.org/wp-content/uploads/2017/10/Starbucks-logo.png');
+  background-size: cover;
+}
+
+.firstProfit{
+  box-shadow: rgba(228, 228, 228, 0.2) 0px 7px 29px 0px;
+}
+
+
+.pr{
+  width: 60px;
+  height: 60px;
+ 
+  border-radius: 50%;
+
+  background-color: rgb(8, 247, 124);
+}
+
+.a1{
+
+  background-image: url('https://bestlifeonline.com/wp-content/uploads/sites/3/2017/05/shutterstock_529646395.jpg?quality=82&strip=all');
+  background-size: cover;
+  background-position: 50% 50%;
+}
+.a2{
+
+  background-image: url('https://www.brisbaneheadshots.com.au/templates/yootheme/cache/corporate-portraits-linkedin-profile-2eccc0eb.jpeg');
+  background-size: cover;
+  background-position: 50% 50%;
+}
+.a3{
+
+  background-image: url('https://media.licdn.com/dms/image/D5603AQEkTqHsjb_x-g/profile-displayphoto-shrink_800_800/0/1679951099230?e=2147483647&v=beta&t=3x4E23SLhWFUPRf1huTBDhcjaah8tc4K01803D1nvhQ');
+  background-size: cover;
+  background-position: 50% 50%;
+}
+.a4{
+
+  background-image: url('https://imageio.forbes.com/blogs-images/thumbnails/blog_4425/pt_4425_1448_o.jpg?format=jpg&width=1200');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.allProducts{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(256px, 1fr));
+  justify-content: center; 
+  gap: 20px;
+ 
+}
+
+
+.profile{
+  background: url('https://cdn.picrew.me/app/image_maker/1503370/icon_kIKRoEsdzN6JQAlH.jpg');
+  background-size: cover;
 }
