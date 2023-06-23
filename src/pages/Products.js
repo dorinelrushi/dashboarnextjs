@@ -1,6 +1,6 @@
 import Link from "next/link";
 import React from "react";
-
+import Image from "next/image";
 function Products({ store }) {
   return (
     <div>
@@ -14,9 +14,10 @@ function Products({ store }) {
                   return (
                     <div key={stores.id} className="d flex">
                       <div className="gridBox flex  bg-[white] p-[30px] rounded-[10px]">
-                        <Link href={`products/${stores.id}`} className="">
+                        <Link href="/" className="">
                           <div className="">
-                            <img
+                            <Image
+                              alt="demo"
                               className="o w-[200px] h-[200px] object-cover"
                               src={stores.image}
                               width="190px"

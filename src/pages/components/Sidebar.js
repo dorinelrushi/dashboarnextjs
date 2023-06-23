@@ -15,11 +15,11 @@ const Sidebar = () => {
           <nav className="nav">
             <ul className="flex flex-col gap-5 text-[#8e8e9d] text-[15px]">
               <li className="flex items-center gap-4">
-                <i class="fa fa-home" aria-hidden="true"></i>
+                <i className="fa fa-home" aria-hidden="true"></i>
                 <Link href="/">Dashboard</Link>
               </li>
               <li className="flex items-center gap-4">
-                <i class="fa fa-pie-chart" aria-hidden="true"></i>
+                <i className="fa fa-pie-chart" aria-hidden="true"></i>
                 <Link href="/Summary">SUMMARY</Link>
               </li>
               <li className="flex items-center gap-3">
