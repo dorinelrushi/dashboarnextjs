@@ -13,7 +13,7 @@ const Dashboard = () => {
           <div className="insideLeft py-[20px] px-[40px]">
             {/* business dashboard box */}
             <div className="flexTextSeach flex justify-between items-center">
-              <div classNam="leftText">
+              <div className="leftText">
                 <h2 className="text font-bold text-[25px]">
                   Business Dashboard
                 </h2>
@@ -208,12 +208,12 @@ const Dashboard = () => {
             </p>
             <div className="boxFlexGrid flex items-center gap-[30px]">
               <div className="firstGridBox bg-[#fff0bf] roundend-[10px] p-[22px]">
-                <i class="fa-sharp fa-solid fa-shoe-prints text-[#ffcc25] text-[20px] mb-[15px]"></i>
+                <i className="fa-sharp fa-solid fa-shoe-prints text-[#ffcc25] text-[20px] mb-[15px]"></i>
                 <h2 className="d font-bold">FootWear</h2>
                 <p className="d text-[#464646]">29 954 units</p>
               </div>
               <div className="secondGridBox bg-[#e1f2ec] p-[22px] ">
-                <i class="fa-sharp fa-solid fa-mitten text-[#55e848] text-[20px] mb-[15px]"></i>
+                <i className="fa-sharp fa-solid fa-mitten text-[#55e848] text-[20px] mb-[15px]"></i>
                 <h2 className="d font-bold">Accessories</h2>
                 <p className="d text-[#464646]">21 954 units</p>
               </div>

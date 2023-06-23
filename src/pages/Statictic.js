@@ -17,7 +17,7 @@ function Statictic() {
                   <div className="leftIns flex gap-[18px] items-center ">
                     <div className="icons bg-white py-[27px] px-[30px] rounded-[10px] shadow-sm">
                       <i
-                        class="fa fa-eye text-[#4552BB] text-[17px]"
+                        className="fa fa-eye text-[#4552BB] text-[17px]"
                         aria-hidden="true"
                       ></i>
                     </div>
@@ -30,7 +30,7 @@ function Statictic() {
                   </div>
                   <div className="arrow">
                     <i
-                      class="fa fa-caret-right text-[white] text-[20px]"
+                      className="fa fa-caret-right text-[white] text-[20px]"
                       aria-hidden="true"
                     ></i>
                   </div>
@@ -40,7 +40,7 @@ function Statictic() {
                   <div className="leftIns flex  gap-[18px]  items-center ">
                     <div className="icons bg-[#b1b8ef7f] py-[27px] px-[30px] rounded-[10px]">
                       <i
-                        class="fa fa-shopping-basket text-[#4552BB] text-[17px]"
+                        className="fa fa-shopping-basket text-[#4552BB] text-[17px]"
                         aria-hidden="true"
                       ></i>
                     </div>
@@ -53,7 +53,7 @@ function Statictic() {
                   </div>
                   <div className="arrow">
                     <i
-                      class="fa fa-caret-right text-[#4552BB] text-[20px]"
+                      className="fa fa-caret-right text-[#4552BB] text-[20px]"
                       aria-hidden="true"
                     ></i>
                   </div>
@@ -67,7 +67,7 @@ function Statictic() {
                   <div className="leftIns flex gap-[18px] items-center ">
                     <div className="icons bg-[#b1b8ef7f] py-[27px] px-[30px] rounded-[10px]">
                       <i
-                        class="fa fa-briefcase text-[#4552BB] text-[17px]"
+                        className="fa fa-briefcase text-[#4552BB] text-[17px]"
                         aria-hidden="true"
                       ></i>
                     </div>
@@ -80,7 +80,7 @@ function Statictic() {
                   </div>
                   <div className="arrow">
                     <i
-                      class="fa fa-caret-right text-[#4552BB] text-[20px]"
+                      className="fa fa-caret-right text-[#4552BB] text-[20px]"
                       aria-hidden="true"
                     ></i>
                   </div>
@@ -90,7 +90,7 @@ function Statictic() {
                   <div className="leftIns flex  gap-[18px]  items-center ">
                     <div className="icons bg-[#b1b8ef7f] py-[27px] px-[30px] rounded-[10px]">
                       <i
-                        class="fa fa-user text-[#4552BB] text-[17px]"
+                        className="fa fa-user text-[#4552BB] text-[17px]"
                         aria-hidden="true"
                       ></i>
                     </div>
@@ -103,7 +103,7 @@ function Statictic() {
                   </div>
                   <div className="arrow">
                     <i
-                      class="fa fa-caret-right text-[#4552BB] text-[20px]"
+                      className="fa fa-caret-right text-[#4552BB] text-[20px]"
                       aria-hidden="true"
                     ></i>
                   </div>
