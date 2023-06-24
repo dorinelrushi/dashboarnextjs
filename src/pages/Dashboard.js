@@ -3,9 +3,34 @@ import ChartLines from "./components/ChartLines";
 import Image from "next/image";
 import Upgrade from "../../public/security-check-6877543-5639689.png";
 import Link from "next/link";
-import Data from "./Data";
 
-const Dashboard = () => {
+function Dashboard() {
+  const data = [
+    {
+      id: 0,
+      nr: "#123456",
+      name: "Namic Pro 2",
+      date: "Sep 16,2022",
+      price: "$52.55",
+      link: (
+        <Link href="/" className="text-[#4eb457] font-[400] tracking-[1px]">
+          Delivered
+        </Link>
+      ),
+    },
+    {
+      id: 1,
+      nr: "#123456",
+      name: "Namic Pro 2",
+      date: "Sep 16,2022",
+      price: "$52.55",
+      link: (
+        <Link href="/" className="text-[red]  font-[400] tracking-[1px]">
+          Canceled
+        </Link>
+      ),
+    },
+  ];
   return (
     <div className="s w-[100%] ">
       <div className="dashboard w-[100%] flex  ">
@@ -223,6 +248,6 @@ const Dashboard = () => {
       </div>
     </div>
   );
-};
+}
 
 export default Dashboard;

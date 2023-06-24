@@ -1,11 +1,58 @@
 import React from "react";
-
+import Image from "next/image";
 import Position from "./components/Position";
 import ChartLines1 from "./components/ChartLines1";
 import Link from "next/link";
-import Datas from "./Data";
+import stars from "../../public/Starbucks-logo.png";
 
 function Transaction() {
+  const datas = [
+    {
+      id: 1,
+      brand: <Image src={stars} alt="demo" width="60px" />,
+      data: "27 May",
+      Vendor: "Star Bucks",
+      purchasted: "2 Cappuchino with Cookies",
+      const: "$28.00",
+      details: <button>Details</button>,
+    },
+    {
+      id: 2,
+      brand: <Image src={stars} alt="demo" width="60px" />,
+      data: "24 May",
+      Vendor: "Star Bucks",
+      purchasted: "2 Cappuchino with Cookies",
+      const: "$28.00",
+      details: <button>Details</button>,
+    },
+    {
+      id: 3,
+      brand: <Image src={stars} alt="demo" width="60px" />,
+      data: "27 May",
+      Vendor: "Star Bucks",
+      purchasted: "2 Cappuchino with Cookies",
+      const: "$28.00",
+      details: <button>Details</button>,
+    },
+    {
+      id: 4,
+      brand: <Image src={stars} alt="demo" width="60px" />,
+      data: "27 May",
+      Vendor: "Star Bucks",
+      purchasted: "2 Cappuchino with Cookies",
+      const: "$28.00",
+      details: <button>Details</button>,
+    },
+    {
+      id: 5,
+      brand: <Image src={stars} alt="demo" width="60px" />,
+      data: "27 May",
+      Vendor: "Star Bucks",
+      purchasted: "2 Cappuchino with Cookies",
+      const: "$28.00",
+      details: <button>Details</button>,
+    },
+  ];
   return (
     <div className="s w-[100%] ">
       {/*Start*/}
@@ -85,7 +132,7 @@ function Transaction() {
               </div>
             </div>
             <div className="bg-white px-[40px] py-[15px] rounded-[18px] overflow-y-scroll h-[350px]">
-              {Datas.map((item) => (
+              {datas.map((item) => (
                 <div key={item.id} className="flexData ">
                   <div className="flexIndies ">
                     <div className="datasIndex flex justify-between items-center  mb-[22px] text-center text-[#1d1d1d] border-b-[1px] py-[10px]">

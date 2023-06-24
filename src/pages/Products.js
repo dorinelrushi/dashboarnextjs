@@ -20,8 +20,8 @@ function Products({ store }) {
                               alt="demo"
                               className="o w-[200px] h-[200px] object-cover"
                               src={stores.image}
-                              width="190px"
-                              height="190px"
+                              width={200}
+                              height={200}
                             />
                             <h2 className=" mt-[10px]">
                               {truncatedTitle + "..."}
@@ -51,11 +51,11 @@ export default Products;
 
 export async function getStaticProps() {
   const response = await fetch("https://fakestoreapi.com/products");
-  const data = await response.json();
+  const datas = await response.json();
 
   return {
     props: {
-      store: data,
+      store: datas,
     },
   };
 }
