@@ -7,7 +7,7 @@ function Statictic() {
     <div>
       {/*start*/}
       <div className="s w-[100%] ">
-        <div className="transaction w-[100%]  ">
+        <div className="transaction w-[100%] flex ">
           {/*left*/}
           <div className="transactionLeft h-[100vh] overflow-y-scroll flex-[2]">
             <div className="insideLeft py-[22px] px-[40px] ">
